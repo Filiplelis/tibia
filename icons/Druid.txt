@@ -1,0 +1,1584 @@
+[Icons]
+Name: Rope---------------------------
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useongrounditem 3003 386
+RightCommand: crosshair 3003
+
+State: Inactive
+IconType: Normal
+IconIds: 3003 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Left
+PositionX: -60
+AlignY: Top
+PositionY: 200
+Text: Rope
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3003 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Left
+PositionX: -60
+AlignY: Top
+PositionY: 200
+Text: Rope
+TextColor: 8421504
+HoverColor: 65280
+
+Name: Shovel
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 500 listas 'Shovel' | useongrounditem 5710 593 | useongrounditem 5710 606 | useongrounditem 5710 608 | useongrounditem 5710 867 | useongrounditem 5710 1822 | useongrounditem 5710 7749
+RightCommand: crosshair 5710
+
+State: Inactive
+IconType: Normal
+IconIds: 5710 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Shovel
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 5710 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Shovel
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Stake + Skin
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: crosshair 5942
+RightCommand: crosshair 5908
+
+State: Inactive
+IconType: Normal
+IconIds: 5942 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Stke+Skn
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 5942 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Stke+Skn
+TextColor: 8421504
+HoverColor: 65280
+
+Name: Machete
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: crosshair 3308
+RightCommand: useongrounditem 3308 2130
+
+State: Inactive
+IconType: Normal
+IconIds: 3308 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Machete
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3308 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Machete
+TextColor: 8421504
+HoverColor: 65280
+
+Name: Exiva
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: say 'exiva "acid'
+RightCommand: say 'exiva "tech'
+
+State: Inactive
+IconType: Top
+IconIds: 3487 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Exiva
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Top
+IconIds: 3487 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Exiva
+TextColor: 8421504
+HoverColor: 4259584
+
+Name: Map
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 1 dontlist | displaymap | altnavdisplay
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 10302 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text:  Map
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 10302 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text:  Map
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: BP Open
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: openbpitem | wait 200 | openitemnew 9604 1 'Tankido' | wait 200 | openitemnew 5801 1 'Moon Backpack' | wait 200 | openitemnew 9601 1 'Moon Backpack' | wait 200 | openitemnew 2869 1 'Moon Backpack' | wait 200 | openitem 5927 1 'Moon Backpack' |
+RightCommand: closeallwindows
+
+State: Inactive
+IconType: Normal
+IconIds: 3253 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: BP Open
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3253 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: BP Open
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Levitate
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: say exani hur up
+RightCommand: say exani hur down
+
+State: Inactive
+IconType: Normal
+IconIds: 9028 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Levitate
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9028 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Levitate
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Cavebot------------------------
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: if [$targetingon || $waypointson] {statusmessage 'ElfBot NG - CaveBot Paused' | settargeting off | setfollowwaypoints off | stopattack} else {statusmessage 'ElfBot NG - CaveBot Resumed' | settargeting on | setfollowwaypoints on}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 7359 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Left
+PositionX: -150
+AlignY: Top
+PositionY: 200
+Text: CaveBot
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 7359 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Left
+PositionX: -150
+AlignY: Top
+PositionY: 200
+Text: CaveBot
+TextColor: 8421504
+HoverColor: 65280
+
+Name: Haste
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 50 | listas Haste | setcolor 255 255 255 | if [$inpz == 0 && $self.hppc > 30 && $hasted == 0] {say 'UtAnI GrAn HuR """"RUN BITCH RUN'} | if [$self.hppc > 30 && $paralyzed == 1] {say 'UtAnI GrAn HuR """"RUN BITCH RUN' | wait 500}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 3079 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Haste
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3079 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Haste
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: GMP Self
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 500 listas 35% Mana | setcolor 844 460} if [$mppc < 35] useoncreature 238 self
+RightCommand: auto 500 listas 95% Mana | setcolor 844 460} if [$mppc < 95] useoncreature 238 self
+
+State: Inactive
+IconType: Normal
+IconIds: 238 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: GMP
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 238 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: GMP
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flask Drop
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 200 listas 'Empty Flask Drop' | if [ $itemcount.285 >= 5 ] dropitems 285 | wait 100 | if [ $itemcount.284 >= 5 ] dropitems 284 | wait 100 | if [ $itemcount.283 >= 5 ] dropitems 283  
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 284 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Flask Drop
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 284 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Flask Drop
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Soft Boots
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 200 listas 'Soft Boots' | if [$mppc <= 50 && $inpz == 0] equipboots 6529 | if [$mppc >= 85] equipboots 3553
+RightCommand: auto 200 listas 'Soft Boots BoH' | if [$mppc <= 50 && $inpz == 0] equipboots 6529 | if [$mppc >= 95] equipboots 3079
+
+State: Inactive
+IconType: Normal
+IconIds: 3549 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Softs
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3549 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Softs
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: SD
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 200 listas 'SD Target' | if [$target.isshootable] { sd target | if $fired wait 800}
+RightCommand: auto 200 listas 'SD Target 2' isattacking {attack target | sd target | if $fired wait 800}
+
+State: Inactive
+IconType: Normal
+IconIds: 3155 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: SD
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3155 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: SD
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Anti Push----------------------
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 | listas 'Anti Push' | set $itemid_1 3035 | set $itemid_2 3031 | ifnot [$topitem.$posx.$posy.$posz == $itemid_1] {ifnot [$topitem.$posx.$posy.$posz == $itemid_2] dropitemsxyzamount $posx $posy $posz $itemid_1 1} | ifnot [$topitem.$posx.$posy.$posz == $itemid_2] dropitemsxyzamount $posx $posy $posz $itemid_2 1 |
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 3031 0 0 0
+BkgType: Normal
+BkgIds: 284 0 0 0
+AlignX: Right
+PositionX: 20
+AlignY: Top
+PositionY: 250
+Text: Anti
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3031 0 0 0
+BkgType: Normal
+BkgIds: 946 0 0 0
+AlignX: Right
+PositionX: 20
+AlignY: Top
+PositionY: 250
+Text: Anti
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Pickup
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 listas 'Pickup' | collectitems 'empty' 3997 3040 11692 3553 3024 283 3249 651 3013 9605  9653 6096 8155 8037 3424 3389  3555 3554 11455 3388 3414 3031 3035 3725 3043 3492 3447 7368 5801 9019 8090 6529 3051 8097 10384 285 284
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 3031 0 0 0
+BkgType: Normal
+BkgIds: 284 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Pickup
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3031 0 0 0
+BkgType: Normal
+BkgIds: 946 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Pickup
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Drag Items
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 listas 'Push All' | moveitemonground $posx [$posy-1] $posz $posx $posy $posz|moveitemonground $posx [$posy+1] $posz $posx $posy $posz|moveitemonground [$posx-1] [$posy-1] $posz $posx $posy $posz|moveitemonground [$posx-1] $posy $posz $posx $posy $posz|moveitemonground [$posx-1] [$posy+1] $posz $posx $posy $posz| moveitemonground [$posx+1] [$posy-1] $posz $posx $posy $posz|moveitemonground [$posx+1] $posy $posz $posx $posy $posz|moveitemonground [$posx+1] [$posy+1] $posz $posx $posy $posz
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 3031 0 0 0
+BkgType: Normal
+BkgIds: 284 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Drag
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3031 0 0 0
+BkgType: Normal
+BkgIds: 946 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: Drag
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Auto Crosshair UH
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 1 dontlist | set $uh 1 | set $ice 0 | set $tera 0 | set $fire 0 | set $uhp 0 | set $gmp 0 | set $gsp 0 | wait 100 | if [$uh == 0] {turnoff}
+RightCommand: set $uh 0
+
+State: Inactive
+IconType: Normal
+IconIds: 3160 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: UH
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3160 0 0 0
+BkgType: Normal
+BkgIds: 7359 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: UH
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Auto Crosshair GMP
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 1 dontlist | set $gmp 1 | set $gsp 0 | set $uhp 0 | set $vis 0 | set $fire 0 | set $ice 0 | set $tera 0 | set $uh 0 | wait 100 | if [$gmp == 0] turnoff
+RightCommand: set $gmp 0
+
+State: Inactive
+IconType: Normal
+IconIds: 238 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: GMP
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 238 0 0 0
+BkgType: Normal
+BkgIds: 7359 0 0 0
+AlignX: Previous
+PositionX: 0
+AlignY: Previous
+PositionY: 40
+Text: GMP
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: E Ring------------------
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 10 listas 'E-Ring 80' | if [$hppc < 80] {equipring 3051} | if [$hppc > 90] {equipring '3024'}
+RightCommand: auto 10 listas 'E-Ring 50' | if [$hppc < 50] {equipring 3051} | if [$hppc > 80] {equipring '3024'}
+
+State: Inactive
+IconType: Normal
+IconIds: 3051 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Right
+PositionX: 100
+AlignY: Top
+PositionY: 250
+Text: E Ring
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3051 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Right
+PositionX: 100
+AlignY: Top
+PositionY: 250
+Text: E Ring
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Summon
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: say 'utevo res "fire elemental'
+RightCommand: say 'utevo res "squirrel'
+
+State: Inactive
+IconType: Normal
+IconIds: 132 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Summon
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 132 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Summon
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Count
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: say On Screen  [$playersaround.20] + 1
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 3006 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Count
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3006 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Count
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Auto Expl
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 1 dontlist | set $expl 1 | set $uh 0 |set $ice 0 | set $tera 0 | set $fire 0 | set $uhp 0 | set $gmp 0 | set $gsp 0 | wait 100 | if [$expl == 0] {turnoff}
+RightCommand: set $expl 0
+
+State: Inactive
+IconType: Normal
+IconIds: 3200 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Expl 
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3200 0 0 0
+BkgType: Normal
+BkgIds: 7359 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Expl
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Hold Target
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 200 if $attacked set $holdd $attacked | if [$attacked != $holdd && $holdd.hppc != 0] attack $holdd.id | ifnot [$holdd.hppc] clear $holdd | setpos [$screenleft-202] [$screentop+50] | setcolor 206 206 206 | if $holdd displaytext 'Hold Target: [$holdd.name]' | ifnot $holdd displaytext 'Hold Target: None'
+RightCommand: stopattack | clear $holdd | clear target
+
+State: Inactive
+IconType: Normal
+IconIds: 3248 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Hold
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3248 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Hold
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Sio Friend
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 safe | listas 'Heal Friends 70' | if [$self.hppc >= 80] | sio 70 anyfriend 
+RightCommand: auto 100 safe | listas 'Heal Friends 50' | if [$self.hppc >= 80] | sio 50 anyfriend
+
+State: Inactive
+IconType: Normal
+IconIds: 3241 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Sio Frnd
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3241 0 0 0
+BkgType: Normal
+BkgIds: 946 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Sio Frnd
+TextColor: 16744448
+HoverColor: 8421504
+
+Name: Mana Shield
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 listas 'Mana Shield' | if [$manashielded == 0] {say 'utamo vita' | wait 1000}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 3051 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Utamo
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3051 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Utamo
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: SSA Equip
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 listas 'Fast SSA' | if [$amuletslot.id !=X ] fastequipammy 3081
+RightCommand: auto 10 | listas 'Smart SSA' | if [$amuletslot.id != 3081 && $winitemcount.3081 >= 1] {equipammy 3081 | if [$amuletslot.id == 3081] statusmessage 'SSA Equipped!' | end} | if [$winitemcount.3081 == 0 && $winitemcount.5801 >= 1] {openitem 5801 1 Jewelled Backpack | statusmessage 'Opening next SSA backpack!' | end}
+
+State: Inactive
+IconType: Normal
+IconIds: 3081 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: SSA
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 3081 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: SSA
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: MR + ER + Godly
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 10 listas 'Might Ring + E Ring + Godly' | setcolor 0 128 192 | if [$hppc <= 90 && $hppc > 60] {equipring 3048} | if [$hppc <= 60] {equipring 3051} | if [$hppc > 90] {equipring 3024}
+RightCommand: auto 10 listas MR | if [$ringslot.id != 3048] {equipring 3048}
+
+State: Inactive
+IconType: Normal
+IconIds: 3024 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: MR/ER
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3024 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: MR+ER
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: UH Friends
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 safe | listas 'UH Friends 70' | if [$self.hppc >= 80] | uhpc 70 anyfriend
+RightCommand: auto 100 safe | listas 'UH Friends 50' | if [$self.hppc >= 80] | uhpc 50 anyfriend
+
+State: Inactive
+IconType: Normal
+IconIds: 3160 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: UH
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 3160 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: UH
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Exura Gran Mas Res
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: say exura gran mas res
+RightCommand: 
+
+State: Inactive
+IconType: Top
+IconIds: 8864 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Res
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Top
+IconIds: 8864 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -40
+AlignY: Previous
+PositionY: 40
+Text: Res
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Message Box
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 listas 'MSG Box' | listboxsetup 1 [$screenleft+6] [$screenbottom-2] 6 4500000 'up' | if $curmsg.isprivate { ifnot $curmsg.isbotlook { listboxaddline 1 $setcolor 237 242 '$systime [$curmsg.sender]: [$curmsg.content]' }}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 1723 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Msg
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 1723 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 40
+AlignY: Previous
+PositionY: 0
+Text: Msg
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower NW----------------
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount [$posx-1] [$posy-1] $posz 2981 1}
+RightCommand: {pickupitemsxyzamount [$posx-1] [$posy-1] $posz 2981 1}
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Right
+PositionX: 10
+AlignY: Top
+PositionY: 670
+Text: NW
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Right
+PositionX: 10
+AlignY: Top
+PositionY: 670
+Text: NW
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower N
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount $posx [$posy-1] $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: N
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: N
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower NE
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount [$posx+1] [$posy-1] $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: NE
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: NE
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower W
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount [$posx-1] $posy $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: W
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: W
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower E
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount [$posx+1] $posy $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 60
+AlignY: Previous
+PositionY: 0
+Text: E
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 60
+AlignY: Previous
+PositionY: 0
+Text: E
+TextColor: 16744448
+HoverColor: 8404992
+
+Name: Flower SW
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount [$posx-1] [$posy+1] $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: SW
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: SW
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower S
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount $posx [$posy+1] $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: S
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: S
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower SE
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: {dropitemsxyzamount [$posx+1] [$posy+1] $posz 2981 1}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: SE
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: SE
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Flower Collect
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 100 | listas 'Collect Flowers' | collectitems 'jewelled backpack' 2981
+RightCommand: {dropitemsxyzamount $posx $posy $posz 2981 1}
+
+State: Inactive
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -30
+AlignY: Previous
+PositionY: -30
+Text: OFF
+TextColor: 8421504
+HoverColor: 65280
+
+State: Active
+IconType: Normal
+IconIds: 2981 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -30
+AlignY: Previous
+PositionY: -30
+Text: ON
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target NW--------------
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx-1] [$target.posy-1] $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx-1] [$target.posy-1] $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Right
+PositionX: 10
+AlignY: Top
+PositionY: 800
+Text: NW
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Right
+PositionX: 10
+AlignY: Top
+PositionY: 800
+Text: NW
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target N
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz $target.posx [$target.posy-1] $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz $target.posx [$target.posy-1] $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: N
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: N
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target NE
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx+1] [$target.posy-1] $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx+1] [$target.posy-1] $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: NE
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: NE
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target W
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx-1] $target.posy $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx-1] $target.posy $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: W
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: W
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target E
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx+1] $target.posy $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx+1] $target.posy $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 60
+AlignY: Previous
+PositionY: 0
+Text: E
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: 60
+AlignY: Previous
+PositionY: 0
+Text: E
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target SW
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx-1] [$target.posy+1] $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx-1] [$target.posy+1] $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: SW
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: -60
+AlignY: Previous
+PositionY: 30
+Text: SW
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target S
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz $target.posx [$target.posy+1] $target.posz
+RightCommand: useoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz $target.posx [$target.posy+1] $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: S
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: S
+TextColor: 16744448
+HoverColor: 16711680
+
+Name: Push Target SE
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: useoncreature 3164 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx+1] [$target.posy+1] $target.posz
+RightCommand: seoncreature 3197 $target.name | moveitemonground $target.posx $target.posy $target.posz [$target.posx+1] [$target.posy+1] $target.posz
+
+State: Inactive
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 3734 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: SE
+TextColor: 8421504
+HoverColor: 4259584
+
+State: Active
+IconType: Normal
+IconIds: 9209 0 0 0
+BkgType: Normal
+BkgIds: 9019 0 0 0
+AlignX: Previous
+PositionX: 30
+AlignY: Previous
+PositionY: 0
+Text: SE
+TextColor: 16744448
+HoverColor: 16711680
